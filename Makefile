@@ -2,7 +2,7 @@
 all: first second
 
 first:
-	gcc compiler.c
+	gcc -g compiler.c
 
 second: first
 	./a.out test.c
